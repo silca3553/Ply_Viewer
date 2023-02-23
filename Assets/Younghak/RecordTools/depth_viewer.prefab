@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8573527588703852453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8573527588703852451}
+  - component: {fileID: 8573527588703852450}
+  m_Layer: 0
+  m_Name: depth_viewer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8573527588703852451
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8573527588703852453}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1115.6813, y: 945.4472, z: -18.028809}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8573527588703852450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8573527588703852453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19f66d9b214548ab91494101e2f060c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OcclusionManager: {fileID: 3924121523436810776, guid: 0dda85c6d8e1f4070975077944a2d2c8, type: 3}
+  depth_material: {fileID: 2100000, guid: 1822b099f6c09434b97c31e70184ff72, type: 2}
+  depthRender: {fileID: 8600000, guid: 1bc46d3f24bc848909540c475f34b8a6, type: 2}
+  rgbRender: {fileID: 8400000, guid: 22dbdd1a07e5840e3a8adc2de50bb2c5, type: 2}
+  mergeRender: {fileID: 8400000, guid: 10b87177112c04d1a867bfea34bf196e, type: 2}
+  m_CameraManager: {fileID: 3924121523436810780, guid: 0dda85c6d8e1f4070975077944a2d2c8, type: 3}
+  maxDistance: 4
+  rgb_RawImage: {fileID: 0}
+  depth_RawImage: {fileID: 0}

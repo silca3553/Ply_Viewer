@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "322009290972",
+    "project_id": "vrcrew-pohang",
+    "storage_bucket": "vrcrew-pohang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322009290972:android:16af74daa9de3c13e6bc19",
+        "android_client_info": {
+          "package_name": "com.vrcrew.cgvps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322009290972-jd7l27nvlk8f9ho172fe4omurit2t22v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4uTxMBLXZmAibYXynUdpSrRDqeIKEvFs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322009290972-jd7l27nvlk8f9ho172fe4omurit2t22v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "322009290972-lfho3qu59ccpfsh5i9sok64f41ml0fqr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.vrcrew.cgvps"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
